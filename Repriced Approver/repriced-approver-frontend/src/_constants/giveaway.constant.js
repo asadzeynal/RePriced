@@ -1,0 +1,14 @@
+export const giveawayConstants = {
+
+    //get all giveaways constants
+    GETALL_REQUEST: 'GIVEAWAYS_GETALL_REQUEST',
+    GETALL_SUCCESS: 'GIVEAWAYS_GETALL_SUCCESS',
+    GETALL_FAILURE: 'GIVEAWAYS_GETALL_FAILURE',
+
+    //get giveaway by id
+    GET_REQUEST: 'GIVEAWAY_GET_REQUEST',
+    GET_SUCCESS: 'GIVEAWAY_GET_SUCCESS',
+    GET_FAILURE: 'GIVEAWAY_GET_FAILURE',
+
+
+};

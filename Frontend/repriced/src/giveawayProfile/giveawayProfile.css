@@ -1,0 +1,78 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  /* height: 100%; */
+  /* width: 100%; */
+  
+  /* background-size: 20%, 100%; */
+  /* border: 1px solid black; */
+  background-image: none;
+  /* background-color: black; */
+}
+.carousel-control-next,
+.carousel-control-prev {
+    /* bottom: 50%; */
+    height: 100%;
+    width: 7%;
+    background-color: black;
+    opacity: 0.2;
+}
+.carousel-control-next:link,
+.carousel-control-prev:link {
+    opacity: 0.2;
+}
+.carousel-control-next:visited,
+.carousel-control-prev:visited {
+    opacity: 0.2;
+}
+.carousel-control-next:focus,
+.carousel-control-prev:focus {
+    opacity: 0.2;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.3;
+}
+.carousel-control-prev:active,
+.carousel-control-next:active {
+    opacity: 0.4;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 35px;
+  color: white;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 35px;
+  color: white;
+}
+
+.carousel-inner > .item {
+  height: 70vh;
+  background-color: whitesmoke;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-height: 800px;
+  width: auto;
+}
+
+#progressBar {
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: small;
+}
+
+.carousel-indicators li {
+
+}

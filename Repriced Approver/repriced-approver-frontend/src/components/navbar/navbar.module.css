@@ -1,0 +1,22 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    background-color: black;
+    text-decoration-color: white;
+}
+
+.sidebar a{
+    color: white !important;
+    margin-bottom: 30px;
+}
+
+.nav_item a {
+    border: white solid 1px;
+    text-align: center;
+    width: 200px;
+}

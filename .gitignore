@@ -1,0 +1,5 @@
+**/node_modules
+Frontend/repriced/config
+/Frontend/repriced/src/_services/config.js
+**/.env
+.idea

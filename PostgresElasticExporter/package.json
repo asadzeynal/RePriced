@@ -1,0 +1,18 @@
+{
+  "name": "postgreselasticexporter",
+  "version": "1.0.0",
+  "description": "Export giveaways from postgres to elasticSearch",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.5.0",
+    "async": "^3.1.0",
+    "pg": "^7.15.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3"
+  }
+}
